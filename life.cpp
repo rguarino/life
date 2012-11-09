@@ -66,7 +66,7 @@ int main(int argc, char* argv[]){
 			int generation = 0;
 			generateGame();
 			bool empty = false;
-			while( !empty ){
+			while( generation <= 50 &&  !empty ){
 				gameTick();
 				cout<<"Generation: "<<generation<<endl;
 				generation++;
