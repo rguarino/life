@@ -26,7 +26,7 @@
 
 //Globals
 const int HEIGHT = 10;
-const int WIDTH = 10;
+const int WIDTH = 30;
 char board[HEIGHT][WIDTH];
 char buffer[2][WIDTH];
 
